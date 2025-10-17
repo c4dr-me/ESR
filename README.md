@@ -14,9 +14,13 @@ Test your emails for inbox, spam, and promotions placement using Gmail, Outlook,
 - **Live Status & Scoring:**  
   Shows live placement results and provides a weighted score based on where your email lands.
 - **Scheduled Checks:**  
-  Uses Vercel cron jobs or external schedulers (like EasyCron) to automatically check inboxes and update results.
+  Uses Vercel cron jobs or external schedulers (like EasyCron or vercel Cron) to automatically check inboxes and update results.
 - **PDF Report Generation:**  
   Lets you generate and download PDF reports of your deliverability results.
+- **GROQ Integration:**  
+  Uses GROQ API for generating brief summaries of deliverability results and insights.
+- **Watermark/Footer in PDF:**  
+  All generated PDF reports include a watermark or footer for authenticity and branding.
 
 ---
 
