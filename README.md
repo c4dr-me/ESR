@@ -8,7 +8,7 @@ Test your emails for inbox, spam, and promotions placement using Gmail, Outlook,
 ## What It Does
 
 - **Automated Deliverability Testing:**  
-  Allows you to send test emails to real inboxes (Gmail, Outlook, Yahoo, iCloud) and see where they land (Inbox, Spam, Promotions, etc.).
+  Allows you to send test emails to real inboxes (Gmail, Outlook) and see where they land (Inbox, Spam, Promotions, etc.).
 - **Unique Test Codes:**  
   Generates a unique code for each test to track and identify your email in the test inboxes.
 - **Live Status & Scoring:**  
@@ -53,8 +53,7 @@ Test your emails for inbox, spam, and promotions placement using Gmail, Outlook,
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/email-spam-report.git
-cd email-spam-report
+git clone https://github.com/yourusername/email-spam-report](https://github.com/c4dr-me/ESR.git
 ```
 
 ### 2. Install dependencies
@@ -150,6 +149,7 @@ Add a `vercel.json` file:
 - `lib/` - Utility functions and API clients
 - `models/` - Mongoose models
 - `public/` - Static assets
+- `utils/` - Helper utility files 
 
 ---
 
@@ -179,7 +179,7 @@ Add a `vercel.json` file:
 
 - Uses [pdfkit](https://pdfkit.org/) for generating PDF reports.
 - No extra setup required; PDF generation is enabled via the `serverComponentsExternalPackages` option in `next.config.mjs`.
-- Reports can be downloaded
+- Reports can be downloaded with brief groq summary
 
 ---
 
