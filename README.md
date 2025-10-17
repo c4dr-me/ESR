@@ -1,7 +1,7 @@
 # Email Spam Report
 
 A Next.js app for real-time email deliverability testing across major inbox providers.  
-Test your emails for inbox, spam, and promotions placement using Gmail, Outlook, Yahoo, and iCloud test accounts.
+Test your emails for inbox, spam, and promotions placement using Gmail, Outlook, (Yahoo and iCloud) test accounts.
 
 ---
 
@@ -53,7 +53,7 @@ Test your emails for inbox, spam, and promotions placement using Gmail, Outlook,
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/email-spam-report](https://github.com/c4dr-me/ESR.git
+git clone https://github.com/c4dr-me/ESR.git
 ```
 
 ### 2. Install dependencies
