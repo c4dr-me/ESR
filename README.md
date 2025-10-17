@@ -131,6 +131,7 @@ It checks for new or incomplete tests and updates their status and scoring as re
 
 This project uses [pdfkit](https://pdfkit.org/) for generating PDF reports of your deliverability results.
 
+- Watermarked and Footer added as well
 - PDF generation is enabled via the `serverComponentsExternalPackages` experimental option in `next.config.mjs`.
 - You can generate and download PDF reports from your deliverability results page.
 

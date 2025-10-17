@@ -9,8 +9,12 @@ export const metadata: Metadata = {
   title: 'Email Spam Report',
   description: 'Test email deliverability across popular providers, generate shareable reports, and inspect inbox vs. spam placement.',
   keywords: ['email', 'spam', 'deliverability', 'report', 'gmail', 'outlook'],
-  authors: [{ name: 'Email Spam Report', url: 'https://github.com/c4dr-me/email-spam-report' }],
+  authors: [{ name: 'Email Spam Report', url: 'https://github.com/c4dr-me/ESR' }],
   generator: 'email-spam-report',
+    icons: {
+    icon: '/logo.jpg',
+    apple: '/logo.jpg',
+  },
 }
 
 export default function RootLayout({
